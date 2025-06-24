@@ -1,0 +1,12 @@
+{
+  "name": "edunotes-backend",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "bcrypt": "^5.1.0",
+    "prisma": "^5.0.0",
+    "pg": "^8.11.0"
+  }
+}
