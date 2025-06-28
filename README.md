@@ -1,6 +1,6 @@
-# EduNotes
+# online_notiz_template
 
-**EduNotes** is a mock project designed for educational purposes to illustrate a realistic software supply chain. It includes frontend and backend folders with simulated source code and dependencies and is intended for generating and analyzing Software Bill of Materials (SBOM) using open source tools.
+**online_notiz_template** is a mock project designed for educational purposes to illustrate a realistic software supply chain. It includes frontend and backend folders with simulated source code and dependencies and is intended for generating and analyzing Software Bill of Materials (SBOM) using open source tools.
 
 > ⚠️ **Note:** This is not a functional application and is not intended for execution or deployment. It serves purely as a reference example for software supply chain analysis.
 
@@ -33,7 +33,7 @@ iwr -useb https://raw.githubusercontent.com/anchore/syft/main/install.ps1 | iex
 
 **Docker alternative:**
 ```bash
-docker run --rm -v $PWD:/work -w /work anchore/syft:latest dir:./EduNotes
+docker run --rm -v $PWD:/work -w /work anchore/syft:latest dir:./online_notiz_template
 ```
 
 ---
@@ -42,7 +42,7 @@ docker run --rm -v $PWD:/work -w /work anchore/syft:latest dir:./EduNotes
 
 After unzipping the repo:
 ```bash
-cd EduNotes
+cd online_notiz_template
 ```
 
 ---
